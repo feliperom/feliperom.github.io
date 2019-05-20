@@ -1,0 +1,1736 @@
+/*
+ * Custom css SafraPay
+ */
+::-moz-selection {
+    background: #151e45;
+    color: #fff;
+}
+* {
+    font-family: 'Open Sans';
+}
+*, *:before, *:after {
+    
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#indexb .navbar-brand {
+    padding-top: 75px;
+    position: absolute;
+    left: calc(50% - 75px);
+    display: block;
+    text-align: center;
+}
+
+.card-padding {
+    padding: 2rem;
+}
+
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #C4AD6C;
+}
+
+.card-header .collapsed .fa {
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #C4AD6C;
+    transform: rotate(180deg);
+    height: calc(50% + 10px);
+}
+
+.mobile-overflow {
+    overflow: hidden;
+}
+
+.color-safra {
+    color: #1E2446;
+}
+
+.site-header {
+    background-color: #1E2446;
+    height: 75px;
+    line-height: 75px;
+}
+
+.site-header nav {
+    padding: 0;
+}
+.site-header ul {
+    margin-left: 300px;
+}
+.site-header ul li a {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+.site-header ul li {
+    margin-left: 38px;
+    line-height: 28px;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-desk a {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.navbar-toggler {
+    width: 60px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+}
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:visited {
+    border: 0;
+}
+.navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 4px;
+    background-color: #fff;
+    margin-bottom: 7px;
+}
+
+.navbar .navbar-collapse {
+    background: #1E2446;
+    text-align: center;
+    margin-top: -5px;
+    z-index: 9999;
+}
+
+#bannerLP {
+    background-image: url('../images/banners/bg-lp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bannerLPC {
+    background-image: url('../images/banners/01-02_Campanha_Desempenho_SafraPay_Header_Papelaria_Fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bannerLPC h1 {
+    font-size:1.7rem;
+}
+
+#bannerLPC h1 {
+    font-weight: 300;
+}
+#bannerLPC h1 span sup {
+    font-weight: 700;
+    color: #C4AD6C;
+    font-size:24px;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bannerLPC h1 span small {
+    font-size: 14px;
+    font-weight: 300;
+}
+#bannerLPC h1 span small b {
+    font-weight: 700;
+    color: #C4AD6C;
+}
+
+#btn-banner-lpc {
+    padding-right: 1.5rem;
+    margin-top: -75px;
+}
+#btn-banner-lpc i {
+    border: solid #1E2446;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 0 2px 15px;
+    color: #1E2446;
+}
+
+#btn-banner-lpc .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#btn-banner-lpc:hover i {
+    border-color: #C4AD6C;
+}
+#btn-banner-lpc:active i {
+    border-color: #fff;
+}
+
+#bannerLPC h1 strong {
+    font-weight: 700;
+    color: #C4AD6C;
+}
+
+#bannerLP h1 span {
+    font-size:18px;
+    font-weight: 600;
+    color: #B19357;
+}
+#banner01 {
+    background-image: url('../images/banners/bg-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner02 {
+    background-image: url('../images/banners/bg-02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner03 {
+    background-image: url('../images/banners/bg-03.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner04 {
+    background-image: url('../images/banners/bg-04.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner01 h1,
+#banner02 h1,
+#banner03 h1,
+#banner04 h1 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin-top: -15px;
+}
+
+#banner02 h1,
+#banner03 h1,
+#banner04 h1 {
+    color: #1E2446;
+}
+
+#banner01 h1 sup,
+#banner02 h1 sup,
+#banner03 h1 sup,
+#banner04 h1 sup {
+    top: -.6em;
+    font-size: 50%;
+}
+
+#banner01 p,
+#banner02 p,
+#banner03 p,
+#banner04 p {
+    font-family: 'Open Sans';
+    color: #C4AD6C;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+#btnBannerThree {
+    background: #1E2446;
+    border:3px solid #1E2446;
+    color: #fff!important;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#btnBannerThree:hover {
+    background-color: #fff;
+    border: 3px solid #1E2446;
+    color: #1E2446!important;
+    box-shadow: 0;
+}
+
+#btnBannerFour {
+    background: #fff;
+    border-color: #fff;
+    font-size: 20px;
+}
+#btnBannerFour:hover {
+    background-color: #fff;
+    border: 3px solid #1E2446;
+    color: #1E2446!important;
+    box-shadow: 0;
+}
+
+.carousel-inner .carousel-item {
+    height: 575px;
+}
+
+
+#banner-quem-somos {
+    background-image: url('../images/banner-quemsomos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+#banner-quem-somos h1 {
+    margin-top: 0;
+}
+
+#banner-nossas-solucoes {
+    background-image: url('../images/banner-dourado-linhas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.banner-mobile#banner-nossas-solucoes-mobile {
+    background-image: url('../images/bg-nossas-solucoes-mobile.jpg');
+    position: relative;
+    height: 370px;
+}
+
+#banner-nossas-solucoes h1 {
+    font-size: 2rem;
+}
+
+#img-nossas-solucoes {
+    bottom: 0;
+    right: 15px;
+    width: 95%;
+}
+
+#banner-quem-somos h1 {
+    font-size: 2rem;
+}
+
+.maquinas-quem-somos {
+    text-align: right;
+}
+
+.mobile-text-white {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.navbar-brand img {
+    width: 90%;
+}
+
+.btn-banner {
+    background: #C4AD6C;
+    border:3px solid #C4AD6C;
+    color: #1E2446!important;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-banner:hover {
+    background-color: #1E2446;
+    border: 3px solid #1E2446;
+    color: #C4AD6C!important;
+    box-shadow: 0;
+}
+
+.btn-banner:active,
+.btn-banner:focus,
+#btnBannerThree:active,
+#btnBannerThree:focus,
+#btnBannerFour:active,
+#btnBannerFour:focus {
+    background-color: #0079AD;
+    color: #fff!important;
+    border: 3px solid #0079AD;
+    box-shadow: none;
+}
+
+#menores-taxas {
+    padding: 85px 0;
+}
+
+.btn-slide-down {
+    position: absolute;
+    /* z-index: 9999; */
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 1px solid #C3AD6B;
+    border-radius: 100%;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-slide-down:hover,
+.btn-slide-down:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 85px 0;
+}
+
+#nossas-solucoes {
+    padding: 50px 0;
+}
+
+.bg-gray {
+    background: rgba(216,216,216,0.47);
+}
+
+.capa-interna article h2 {
+    font-family: "Open Sans" !important;
+}
+
+.line-divider {
+	box-sizing: border-box;
+	height: 2px;
+	width: 160px;
+    border: 1px solid #1E2446; 
+    margin: 0 auto;
+}
+
+#smart,
+#sembobina {
+    text-align: right;
+}
+#combobina,
+#sembobinagprs {
+    text-align: left;
+}
+
+#packBanner {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    margin-top: -256px;
+}
+
+h2.text-taxas {
+    font-size: 32px;
+    color: #1E2446;
+    line-height: 34px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+h2.text-taxas.other {
+    font-size: 34px;
+}
+
+h3.text-taxa-subtitle {
+    font-size: 21px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.text-cards {
+	color: #1E2446;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+}
+
+.text-cards strong {
+    font-size: 32px;
+    color: #C4AD6C;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.card-benefy {
+    border-radius: 4px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.10);
+}
+
+.text-card-taxas {
+    font-size: 44px;
+    font-weight: 300;
+    color: #C3AD6B;
+    font-family: "Open Sans";
+}
+
+.text-card-taxas span {
+    display: block;
+    font-size: 16px;
+    color: #1E2446;
+    font-weight: 600;
+}
+
+.text-card-taxas small {
+    font-size: 12px;
+    color: #1E2446;
+    line-height: 0;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+
+.btn-safrapay-navy{
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    background-color: #1E2446;
+    color:#fff!important;
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid #1E2446;
+}
+.btn-safrapay-navy:hover {
+    background-color: #fff;
+    color: #1E2446!important;
+    border: 3px solid #1E2446;
+}
+.btn-safrapay-navy:active,
+.btn-safrapay-navy:focus {
+    background-color: #0079AD;
+    color: #fff!important;
+    border: 3px solid #0079AD;
+}
+
+.title-maq {
+    font-size: 32px;
+    color: #1E2446;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+.title-maq sup {
+    font-size: 18px;
+}
+.text-maq {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.title-subtext {
+    color: #C3AD6C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.subtext {
+    list-style-type: none;
+}
+.subtext li {
+    font-size: 13px;
+    color: #4A4A4A;
+    display: inline-block;
+}
+ul.subtext.other li i {
+    height: 35px;
+}
+ul.subtext.other-last li i {
+    height: 28px;
+}
+ul.subtext li i {
+    font-size: 22px;
+    color: #B19357;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.btn-maquinas {
+    padding: .7rem 3.5rem!important;
+}
+
+.regulamento {
+    font-size: 13px;
+    text-decoration: underline;
+}
+.regulamento:hover {
+    color: #1E2446;
+}
+
+.btn-ouro {
+    padding: .8rem 1.5rem;
+    border-radius: 4px;
+    background-color: #C4AD6C;
+    border: 3px solid #C4AD6C;
+    color: #1E2446!important;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-ouro:hover {
+    background-color: #1E2446;
+    border: 3px solid #1E2446;
+    color: #C4AD6C!important;
+    box-shadow: 0;
+}
+.btn-ouro:active,
+.btn-ouro:focus {
+    background-color: #0079AD;
+    color: #fff!important;
+    border: 3px solid #0079AD;
+    box-shadow: none;
+}
+
+.bandeiras h4 {
+    font-family: 'Open Sans';
+}
+
+.row-items ul{
+    margin-left: 0;
+    padding: 0;
+}
+.row-items ul li {
+    list-style: none;
+    color: #1E2446;
+    font-size: 14px;
+    position: relative;
+    margin-bottom:10px;
+}
+
+.row-items ul li::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url('../images/emprestimos.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: -30px;
+}
+
+.row-items ul li:nth-child(2)::after {
+    background-image: url('../images/aplicacoes.png');
+}
+.row-items ul li:nth-child(3)::after {
+    background-image: url('../images/transferencias.png');
+}
+.row-items ul li:nth-child(4)::after {
+    background-image: url('../images/pagamento-contas.png');
+}
+.row-items ul li:nth-child(5)::after {
+    background-image: url('../images/atendimento-safra.png');
+    height: 24px;
+}
+
+.row-items p {
+    color: #1E2446;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#packMaquinas {
+    width: 90%;
+}
+
+.lista-bateria-robusta {
+    max-height: 48px;
+}
+
+.lista-caracteristicas {
+    margin-left: 0;
+}
+.lista-caracteristicas li {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom:15px;
+}
+
+.lista-caracteristicas li img {
+    padding: 6px;
+    max-width: 48px;
+}
+
+.lista-caracteristicas li p {
+    font-size:13px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #1E2446;
+}
+
+.row-items strong {
+    font-size: 21px;
+    color: #1E2446;
+    font-family: 'Open Sans';
+    line-height: 1;
+}
+.table.no-border tr td, .table.no-border tr th {
+    border-width: 0;
+}
+
+table.table-comparative {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+table.table-comparative thead th {
+    text-align: center;
+    border: none;
+    color: #1E2446;
+}
+.table-comparative tbody tr {
+    border: none;
+}
+.table-comparative tbody tr td {
+    text-align: center;
+    vertical-align: middle;
+    border: 0!important;
+    font-size: 21px;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    padding: 15px 0;
+}
+
+.table-comparative tbody tr:first-child {
+    background-color: #C4AD6C;
+}
+.table-comparative tbody tr:first-child p {    
+    font-weight: 700;
+    font-size: 21px;
+}
+.table-comparative tbody tr:first-child td {
+    color: #1E2446;
+    font-weight: 700;
+    font-size: 21px;
+}
+.table-comparative tbody tr:first-child td small {
+    display: block;
+    font-size: 12px;
+    line-height: 5px;
+    font-weight: 700;
+}
+
+.table-comparative tbody tr {
+    background-color: rgba(196,173,108,0.6);
+    border-bottom: 7px solid #fff;
+}
+.table-comparative tbody tr td:last-child p{
+    border-right: 0;
+}
+.table-comparative tbody tr td p{
+    margin-bottom: 0;
+    padding: 5px 30px;
+    border-right: 1px solid #fff;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.cartao {
+    width: 100%;
+}
+.cartao p {
+    display: inline-block;
+    margin: 0 .9% 0 1%;
+    padding: 1% 0 1% 0;
+}
+
+#faqExpandable {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.questions {
+    /* border-bottom: 1px solid #979797; */
+}
+.questions .accordion .card {
+    border: 0;
+}
+.questions .accordion .card .card-header {
+    background: none;
+    border: 0;
+    border-top: 1px solid #979797;
+    padding: 1rem 0;
+}
+
+.questions .accordion .card .card-header .btn {
+    font-size: 18px;
+    color: #1E2446;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    width: 100%;
+    display: block;
+    text-align: left;
+    white-space: normal;
+    position: relative;
+    padding-right: 35px;
+}
+
+.accordion .card-body a {
+    color: #1E2446;
+    text-decoration: underline;
+}
+
+.questions .accordion .card .card-header .btn:hover,
+.questions .accordion .card .card-header .btn:focus {
+    text-decoration: none;
+}
+.questions .accordion .card .card-body {
+    padding-top: 0;
+    padding-left: 1rem;
+    font-size: 14px;
+}
+
+.texto-politica p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+    color: #1E2446;
+}
+.texto-politica .text-title {
+    margin-top: 30px;
+    text-align: center;
+    color: #1E2446;
+    font-weight: 600;
+}
+
+
+
+/* TABS */
+
+.font-digital {
+    font-weight: 400;
+}
+
+#nossas-solucoes-tab {
+    padding: 50px 0px 0px 0px;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #C3AD6C!important;
+    background-color: transparent;
+    border-bottom: 5px solid !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #C3C3C3;
+    font-size: 24px;
+    border-bottom: 3px solid;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link span.subtitle {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+#tabs a {
+    padding-bottom: 15px;
+}
+
+/* FIM TABS */
+
+
+/* ATENDIMENTO */
+.form label {
+    color: #1E2446;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+}
+/* .form .form-control {
+    border: 2px solid #D8D8D8;
+} */
+
+.form textarea {
+    min-height: 160px;
+}
+
+/* .form .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(30,36,70,.45);
+} */
+
+.text-atendimento strong {
+    display: block;
+}
+.text-atendimento {
+    color: #1E2446;	
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.title-atendimento {
+    width: 80%;
+    color: #1E2446;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+}
+/* FIM ATENDIMENTO */
+
+/* NOSSAS SOLUÇÕES */
+.name-text {
+    font-size: 36px;
+    float: right;
+    border-bottom: 6px solid #C3AD6B;
+    padding-bottom: 6px;
+    font-family: 'Open Sans';
+}
+.title-quem-somos {
+    font-size: 34px;
+}
+.text-safra {
+    font-size: 32px;
+    line-height: 50px;
+    color: #1E2446;
+    font-weight: 400;
+}
+
+#quem-somos .text-maq {
+    line-height: 30px;
+}
+
+#container-nossas-solucoes {
+    height: 100%;
+}
+#container-nossas-solucoes .row {
+    height: 100%;
+}
+
+.bg-maquinas {
+    background: #f5f5f5;
+}
+
+/* FOOTER */
+footer {
+    background: #1E2446;
+    margin-top: 30px;
+    padding-top:30px;
+}
+footer p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+footer .infos-footer h4 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+footer .infos-footer strong {
+	color: #C4AD6C;
+	font-size: 24px;
+	font-weight: 700;
+    
+    display: block;
+}
+footer .infos-footer span {
+	color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+}
+footer .infos-footer a {
+    font-size: 13px;
+    line-height: 1;
+    display: block;
+    color: #C4AD6C;
+}
+footer .infos-footer a + a,
+footer .infos-footer a:last-child {
+    text-decoration: underline;
+}
+footer .infos-footer a + a:hover,
+footer .infos-footer a:last-child:hover {
+    text-decoration: underline;
+}
+footer .infos-footer a:hover {
+    text-decoration: none;
+}
+
+.logo-institucional {
+    margin-top: -45px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #tabs .nav-tabs .nav-link span.subtitle.mobile {
+        margin-top: 30px;
+    }
+    .btn-banner {
+        background: #C4AD6C;
+        border: 3px solid #C4AD6C;
+        color: #1E2446!important;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 4px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #tabs .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        color: #C3C3C3;
+        font-size: 20px;
+        border-bottom: 3px solid;
+        font-weight: bold;
+    }
+
+    #indexb .navbar-brand {
+        padding-top: 75px;
+        position: absolute;
+        left: calc(50% - 100px);
+        display: block;
+        text-align: center;
+    }
+
+    .carousel-indicators {
+        bottom: -15px;
+    }
+    .carousel-indicators li {
+        border-radius: 100%;
+        width: 12px;
+        height: 12px;
+        margin-bottom: 10px;
+        background: #1E2446;
+        display: block;
+    }
+    .carousel-indicators li.active {
+        background: #fff;
+        border: 2px solid #C3AD6B;
+    }
+
+    #banner-mobile-01 .box-items-banner p {
+        color: #fff;
+    }
+    #banner-mobile-02 .box-items-banner,
+    #banner-mobile-03 .box-items-banner,
+    #banner-mobile-04 .box-items-banner {
+        border-color: #1E2446;
+    }
+    #banner-mobile-02 .box-items-banner p,
+    #banner-mobile-03 .box-items-banner p,
+    #banner-mobile-04 .box-items-banner p,
+    #banner-mobile-04 .box-items-banner p strong {
+        color:#1E2446;
+    }
+
+    #banner-mobile-03 .box-items-banner p strong {
+        color: #fff;
+    }
+
+    #banner-nossas-solucoes-mobile h1 {
+        font-size: 28px;
+        position: absolute;
+        top: 50%;
+        margin-top: -100px;
+    }
+
+    #banner-mobile-02 img,
+    #banner-mobile-03 img,
+    #banner-mobile-04 img {
+        height: 220px;
+    }
+
+
+    #image-solucoes-mobile {
+        bottom: 0;
+        left:50%;
+        margin-left: -37.5%;
+    }
+    .bg-maquinas {
+        background: transparent;
+    }
+    .title-subtext {
+        font-size: 20px;
+    }
+    ul.subtext {
+        list-style-type: disc;
+    }
+    ul.subtext li {
+        list-style-type: disc;
+        list-style-position: inside;
+        display: list-item;
+        font-size: 14px;
+        color: #1E2446;
+        margin-bottom: 10px;
+    }
+    .btn-maquinas {
+        width: 100%;
+    }
+    #img-nossas-solucoes {
+        bottom: 0;
+    }
+    #btn-banner-lpc {
+        margin-top: -15px;
+        font-size: 1rem;
+        line-height: 36px;
+    }
+    #btn-banner-lpc i {
+        padding: 4px;
+        margin: 0 0 1px 15px;
+        border-width: 0 2px 2px 0;
+    }
+    #bannerLPC h1 {
+        font-size: 1.2rem;
+    }
+    #bannerLPC h1 span small {
+        border-left: 1px solid #fff;
+        display: block;
+        padding-left: 10px;
+    }
+    #bannerLPC {
+        background-color: rgba(68,89,141,1);
+        background-image: url('../images/banners/01-02_Campanha_Desempenho_SafraPay_Header_Papelaria_Mobile_Fundo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 460px;
+        padding-top:25px;
+    }
+
+    #bannerLP {
+        background-color: rgba(68,89,141,1);
+        background-image: url('../images/banners/bg-banner-lp-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* height: 460px; */
+        padding-top:25px;
+    }
+    #banner01 {
+        background-color: rgba(68,89,141,1);
+        background-image: url('../images/bg-banner-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #banner02 {
+        background-color: rgba(235,228,209,1);
+        background-image: url('../images/banners/02-BG-Smart-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #banner03 {
+        background-color: #B5C7DB;
+        background-image: url('../images/banners/03-BG-Padrao-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #banner04 {
+        background-color: #D5C184;
+        background-image: url('../images/banners/04-BG-SemBobina-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #smart,
+    #combobina,
+    #sembobina {
+        text-align: center;
+    }
+    footer .menu-footer ul li.link-1,
+    footer .menu-footer ul li.link-2,
+    footer .menu-footer ul li.link-3,
+    footer .menu-footer ul li.link-4 {
+        width: 100%;
+    }
+    footer .menu-footer ul li.link-1,
+    footer .menu-footer ul li.link-4 {
+        padding-left: 0;
+    }
+    footer .menu-footer ul li .inner h3 {
+        font-size:14px;
+    }
+    .navbar-brand {
+        padding: 0;
+        margin-left: 15px;
+    }
+    .site-header ul {
+        margin-left: 0;
+    }
+    .site-header ul li {
+        text-align: center;
+        margin-left: 38px;
+        padding: 0;
+        margin: 0;
+        line-height: 60px;
+    }
+    .row-items ul li::after {
+        left: -35px;
+    }
+    .navbar-collapse {
+        justify-content: center!important;
+    }
+
+    .wrapper {
+        padding: 25px 0;
+    }
+
+    .btn-slide-down {
+        bottom: 10px;
+    }
+    .lp300b #menores-taxas {
+        padding-top: 50px;
+    }
+    .lp300b h2.text-taxas {
+        font-size: 21px;
+    }
+    h2.text-taxas {
+        padding: 0 15px;
+        font-size: 24px;
+    }
+    h3.text-taxa-subtitle {
+        font-size: 24px;
+    }
+    .text-cards {
+        font-size: 24px;
+    }
+    .text-cards strong {
+        font-size: 36px;
+    }
+    h2.text-taxas.other {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .text-card-taxas small {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .btn-safrapay-navy{
+        width: 100%;
+    }
+
+    .title-maq {
+        margin-top: 20px;
+    }
+    .text-maq {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .btn-ouro {
+        font-size: 18px;
+    }
+    .row-items p,
+    .row-items ul li {
+        font-size: 18px;
+    }
+    .row-items [class*="col-"] {
+        margin-top: 40px;
+    }
+    .row-items strong {
+        font-size: 24px;
+    }
+    .cartao {
+        text-align: center;
+    }
+
+    table.table-comparative {
+        table-layout: fixed;
+    }
+    .table-comparative tbody tr:first-child {
+        background-color: transparent;
+        border-bottom: 0;
+    }
+    .table-comparative tbody tr:nth-child(2) {
+        background-color: #C4AD6C;
+    }
+    .table-comparative tbody tr:nth-child(2) td p {
+        color: #1E2446;
+        font-size: 18px;
+        border-left: 1px solid #fff!important;
+        line-height: 1;
+    }
+    .table-comparative tbody tr {
+        background-color: rgba(196,173,108,0.6);
+        border-bottom: 7px solid #fff;
+    }
+    .table-comparative tbody tr td p {
+        margin-bottom: 0;
+        padding: 5px;
+        border-right: 1px solid #fff;
+        font-size: 16px;
+    }
+    .table-comparative tbody tr td img {
+        width: 80%;
+    }
+
+    /* Banners */
+    #banner01,
+    #banner02,
+    #banner03,
+    #banner04 {
+        padding-top: 25px;
+        height: 475px;
+    }
+    #banner01 h1,
+    #banner03 h1,
+    #banner04 h1 {
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        margin-top: 10px;
+    }
+
+    #banner03 h1 {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        margin-top: 5px;
+    }
+
+    #banner02 h1 {
+        font-size: 1.35rem;
+        line-height: 2.1rem;
+        margin-top: 20px;
+    }
+
+    #banner01 h1 strong {
+        font-family: 'Open Sans';
+        font-weight: 800!important;
+    }
+
+    .box-items-banner {
+        border: 1px solid #C3AD6B;
+        border-radius: 5px;
+        height: 60px;
+        padding: 5px 5px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .box-items-banner p {
+        color: #fff;
+        font-size: 18px!important;
+        font-weight: 400!important;
+        line-height: 26px!important;
+    }
+    
+    .box-items-banner strong {
+        display: block;
+        color: #C3AD6B;
+        font-size:20px;
+        font-weight: bold;
+    }
+
+    .questions .accordion .card .card-header .btn {
+        font-size: 14px;
+        padding-right: 35px;
+    }
+    .site-header {
+        height: 70px;
+        line-height: 70px;
+    }
+    .site-header .navbar-brand img {
+        width: 80%;
+    }
+    .navbar-toggler {
+        width: 55px;
+        height: 35px;
+        background-color: transparent;
+        border: 0;
+    }
+    .navbar-toggler .line {
+        width: 100%;
+        float: left;
+        height: 3px;
+        background-color: #fff;
+        margin-bottom: 6px;
+    }
+
+    #banner-quem-somos {
+        background-image: url('../images/bg-quem-somos-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+    #banner-quem-somos h1 {
+        margin-top: -145px;
+        line-height: 2.3rem;
+    }
+
+    .text-footer-corp {
+        text-align: center;
+    }
+    footer .menu-footer ul li .inner h4 {
+        font-size: 14px;
+    }
+
+    .title-atendimento {
+        line-height: 36px;
+        width: 100%;
+    }
+    .text-atendimento,
+    .text-atendimento strong {
+        font-size: 18px;
+    }
+
+    .btn-margin-bottom {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .banner {
+        height: 500px;
+    }
+    .banner h1 {
+        font-size: 1.6rem;
+    }
+    .lista-caracteristicas li p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    .carousel-inner {
+        height: 510px;
+    }
+    .btn-slide-down {
+        bottom: 90px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: -135px;
+        top: 50%;
+        margin-top: -60px;
+        left: inherit;
+        height: 120px;
+        display: block;
+    }
+    .carousel-indicators li {
+        border-radius: 100%;
+        width: 17px;
+        height: 17px;
+        margin-bottom: 10px;
+        background: #1E2446;
+        display: block;
+    }
+    .carousel-indicators li.active {
+        background: #fff;
+        border: 3px solid #C3AD6B;
+    }
+    .container {
+        width: 980px;
+    }
+    #banner01 h1,
+    #banner02 h1,
+    #banner03 h1,
+    #banner04 h1 {
+        font-size: 2.3rem;
+    }
+    
+    #combobina {
+        text-align: left;
+    }
+    #smart,
+    #sembobina {
+        text-align: right;
+    }
+    #packBanner {
+        margin-top: -195px;
+    }
+
+    #smart img,
+    #combobina img,
+    #sembobina img {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-banner {
+        line-height: 30px;
+    }
+    #btnBannerFour {
+        font-size: 14px;
+        line-height: 30px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    #btnBannerThree {
+        font-size:16px;
+        line-height: 30px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: -100px;
+        top: 50%;
+        margin-top: -60px;
+        left: inherit;
+        height: 120px;
+        display: block;
+    }
+    .carousel-indicators li {
+        border-radius: 100%;
+        width: 17px;
+        height: 17px;
+        margin-bottom: 10px;
+        background: #1E2446;
+        display: block;
+    }
+    .carousel-indicators li.active {
+        background: #fff;
+        border: 3px solid #C3AD6B;
+    }
+    #smart,
+    #sembobina {
+        text-align: right;
+    }
+    #combobina,
+    #sembobinegprs {
+        text-align: left;
+    }
+    #smart img,
+    #combobina img,
+    #sembobina img {
+        width: 85%;
+    }
+    #packBanner {
+        margin-top: -175px;
+    }
+    footer .menu-footer ul li.link-1,
+    footer .menu-footer ul li.link-2,
+    footer .menu-footer ul li.link-3,
+    footer .menu-footer ul li.link-4 {
+        width: 100%;
+    }
+    footer .menu-footer ul li.link-1,
+    footer .menu-footer ul li.link-4 {
+        padding-left: 0;
+    }
+    footer .menu-footer ul li .inner h3 {
+        font-size:14px;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    .site-header ul {
+        margin-left: 0;
+    }
+    .site-header ul li {
+        text-align: center;
+        margin-left: 38px;
+        padding: 0 0;
+        margin: 0;
+        line-height: 60px;
+    }
+    .text-cards {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .text-cards strong {
+        font-size: 28px;
+    }
+    .carousel-item small {
+        font-size: 9px;
+    }
+    h2.text-taxas.other {
+        font-size: 30px;
+    }
+    .navbar-collapse {
+        justify-content: center!important;
+        z-index: 9999;
+    }
+    .row-items strong {
+        font-size: 20px;
+    }
+    #bannerLP,
+    #bannerLPC,
+    #banner01,
+    #banner02,
+    #banner03,
+    #banner04 {
+        height: 375px;
+    }
+    #bannerLP h1,
+    #banner01 h1,
+    #banner02 h1,
+    #banner03 h1,
+    #banner04 h1 {
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+    }
+    .row-items ul li {
+        font-size: 13px;
+    }
+    .row-items ul li::after {
+        width: 20px;
+        height: 20px;
+    }
+    .btn-banner {
+        font-size: 16px;
+    }
+    .cartao {
+        text-align: center;
+    }
+    h2.text-taxas {
+        font-size: 24px;
+    }
+    footer p:last-child {
+        font-size: 10px;
+        text-align: left;
+    }
+    .table-comparative tbody tr:first-child {
+        background-color: transparent;
+        border-bottom: 0;
+    }
+    .table-comparative tbody tr:nth-child(2) {
+        background-color: #C4AD6C;
+    }
+    .table-comparative tbody tr:nth-child(2) td p {
+        color: #1E2446;
+        font-size: 24px;
+        border-left: 1px solid #fff!important;
+        line-height: 1;
+    }
+    .table-comparative tbody tr {
+        background-color: rgba(196,173,108,0.6);
+        border-bottom: 7px solid #fff;
+    }
+    .btn-safrapay-navy {
+        width: 100%;
+    }
+
+    /* NOSSAS SOLUÇÕES */
+    #nossas-solucoes {
+        padding: 25px 0;
+    }
+    #banner-nossas-solucoes {
+        height: 300px;
+    }
+    #container-nossas-solucoes {
+        height: 100%;
+    }
+    #container-nossas-solucoes .row {
+        height: 100%;
+    }
+    #banner-nossas-solucoes h1 {
+        font-size: 1.8rem;
+    }
+
+    .title-maq {
+        font-size: 27px;
+    }
+    .title-maq sup {
+        font-size: 16px;
+    }
+
+    .text-safra {
+        font-size: 23px;
+    }
+    .name-text {
+        font-size: 28px;
+    }
+    #quem-somos .text-maq {
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1280px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: -165px;
+        top: 50%;
+        margin-top: -60px;
+        left: inherit;
+        height: 120px;
+        display: block;
+    }
+    .carousel-indicators li {
+        border-radius: 100%;
+        width: 17px;
+        height: 17px;
+        margin-bottom: 10px;
+        background: #1E2446;
+        display: block;
+    }
+    .carousel-indicators li.active {
+        background: #fff;
+        border: 3px solid #C3AD6B;
+    }
+
+    .margin-footer {
+        margin-right: -25px;
+    }
+}
+
+.desktopBlock{
+    display: inline;
+}
+
+@media(min-width: 768px){
+    .desktopBlock{
+        display: block;
+    }
+}
