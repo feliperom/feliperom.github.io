@@ -3,11 +3,9 @@
 import { useState } from "react";
 import { useLocale } from "@/i18n/context";
 import { EXPERIENCE } from "@/content/experience";
-import { SITE } from "@/content/site";
 import { formatPeriod } from "@/lib/period";
 import { SplitText } from "@/components/ui/SplitText";
 import { useReveal } from "@/hooks/useReveal";
-import { MagneticButton } from "@/components/ui/MagneticButton";
 
 export function Experience() {
   const { locale, dict } = useLocale();
@@ -84,7 +82,8 @@ export function Experience() {
           })}
         </div>
 
-        {/* <div className="mt-12 border-t border-offwhite/10 pt-10">
+        {/* Résumé download — re-add the `SITE` and `MagneticButton` imports to restore.
+        <div className="mt-12 border-t border-offwhite/10 pt-10">
           <MagneticButton
             href={SITE.resumePath}
             external
