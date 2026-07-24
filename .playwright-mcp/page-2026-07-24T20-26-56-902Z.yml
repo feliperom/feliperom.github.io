@@ -1,0 +1,663 @@
+- generic [active] [ref=e1]:
+  - status "Loading" [ref=e2]:
+    - generic [ref=e73]: "000"
+  - banner [ref=e74]:
+    - navigation [ref=e75]:
+      - link "FR." [ref=e76] [cursor=pointer]:
+        - /url: /pt/
+      - list [ref=e77]:
+        - listitem [ref=e78]:
+          - link "01 Índice" [ref=e79] [cursor=pointer]:
+            - /url: /pt/
+            - generic [ref=e80]: "01"
+            - generic [ref=e81]: Índice
+        - listitem [ref=e82]:
+          - link "02 Projetos" [ref=e83] [cursor=pointer]:
+            - /url: /pt/#work
+            - generic [ref=e84]: "02"
+            - generic [ref=e85]: Projetos
+        - listitem [ref=e86]:
+          - link "03 Sobre" [ref=e87] [cursor=pointer]:
+            - /url: /pt/about/
+            - generic [ref=e88]: "03"
+            - generic [ref=e89]: Sobre
+        - listitem [ref=e90]:
+          - link "04 Experiência" [ref=e91] [cursor=pointer]:
+            - /url: /pt/#experience
+            - generic [ref=e92]: "04"
+            - generic [ref=e93]: Experiência
+        - listitem [ref=e94]:
+          - link "05 Lab" [ref=e95] [cursor=pointer]:
+            - /url: /pt/lab/
+            - generic [ref=e96]: "05"
+            - generic [ref=e97]: Lab
+        - listitem [ref=e98]:
+          - link "06 Contato" [ref=e99] [cursor=pointer]:
+            - /url: /pt/contact/
+            - generic [ref=e100]: "06"
+            - generic [ref=e101]: Contato
+      - generic [ref=e103]:
+        - link "pt" [ref=e105] [cursor=pointer]:
+          - /url: /pt/
+        - generic [ref=e106]:
+          - generic [ref=e107]: /
+          - link "en" [ref=e108] [cursor=pointer]:
+            - /url: /en/
+  - link "Skip to content" [ref=e109] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=e110]:
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - paragraph [ref=e113]: Aberto a projetos e oportunidades
+        - heading [level=1] [ref=e115]:
+          - generic "EU CRIO" [ref=e116]
+          - generic "EXPERIÊNCIAS" [ref=e119]
+          - generic "DIGITAIS." [ref=e122]
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - paragraph [ref=e127]: Desenvolvedor Full Stack Sênior construindo produtos escaláveis, interfaces interativas e soluções potencializadas por IA.
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - term [ref=e130]: Felipe Romero
+              - definition [ref=e131]: Desenvolvedor Full Stack Sênior
+            - generic [ref=e132]:
+              - term [ref=e133]: Santos, Brasil — Remoto
+              - definition [ref=e134]:
+                - generic [ref=e135]: "--:--:-- GMT-3"
+            - generic [ref=e136]:
+              - link "LinkedIn" [ref=e137] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/felipe-romero
+              - link "GitHub" [ref=e138] [cursor=pointer]:
+                - /url: https://github.com/feliperom
+              - link "Email" [ref=e139] [cursor=pointer]:
+                - /url: mailto:feliperom87@gmail.com
+        - generic:
+          - generic: ↓
+          - text: Rolar
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]: — 001 / Statement
+        - heading [level=2] [ref=e144]:
+          - generic "O CÓDIGO É SÓ" [ref=e145]
+          - generic "PARTE DO TRABALHO." [ref=e148]
+      - generic [ref=e151]:
+        - paragraph [ref=e152]: Construo produtos digitais considerando experiência, arquitetura, performance, negócio e manutenção. O código é o meio. O objetivo é criar soluções que sejam úteis, escaláveis e capazes de gerar resultados.
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]: "16"
+            - paragraph [ref=e156]: Anos construindo para a web
+          - generic [ref=e157]:
+            - generic [ref=e158]: 1M+
+            - paragraph [ref=e160]: Usuários na plataforma bancária que ajudei a migrar
+          - generic [ref=e161]:
+            - generic [ref=e162]: "4"
+            - paragraph [ref=e163]: "Setores críticos: bancário, seguros, saúde, varejo"
+          - generic [ref=e164]:
+            - generic [ref=e165]: Diário
+            - paragraph [ref=e166]: Desenvolvimento orientado por IA
+    - generic [ref=e167]:
+      - generic [ref=e169]:
+        - heading [level=2] [ref=e170]:
+          - generic "TRABALHOS" [ref=e171]
+          - generic "SELECIONADOS" [ref=e174]
+        - generic [ref=e177]: Trabalhos selecionados — 06
+      - generic [ref=e178]:
+        - article [ref=e179]:
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e183]: "01"
+                - generic [ref=e184]: Fintech / Bancário / Migração de Legado
+              - link [ref=e185] [cursor=pointer]:
+                - /url: /pt/work/safrapay-internet-banking/
+                - heading "SafraPay & Internet Banking" [level=3] [ref=e186]
+              - paragraph [ref=e187]: Produtos web e mobile do SafraPay e do Internet Banking do Banco Safra — plataforma com mais de 1 milhão de usuários — e a migração que tirou o sistema do AngularJS.
+              - generic [ref=e188]:
+                - generic [ref=e189]:
+                  - term [ref=e190]: Ano
+                  - definition [ref=e191]: 2018 — 2019
+                - generic [ref=e192]:
+                  - term [ref=e193]: Papel
+                  - definition [ref=e194]: Arquitetura & Desenvolvimento Front-end
+                - generic [ref=e195]:
+                  - term [ref=e196]: Stack
+                  - definition [ref=e197]: Angular 6/7/8, AngularJS, Node.js
+              - link "Ver case →" [ref=e198] [cursor=pointer]:
+                - /url: /pt/work/safrapay-internet-banking/
+            - 'link "Ver case: SafraPay & Internet Banking" [ref=e199] [cursor=pointer]':
+              - /url: /pt/work/safrapay-internet-banking/
+              - img "Produtos web e mobile do SafraPay e do Internet Banking do Banco Safra — plataforma com mais de 1 milhão de usuários — e a migração que tirou o sistema do AngularJS." [ref=e201]
+        - article [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - generic [ref=e206]: "02"
+                - generic [ref=e207]: Seguros / Design System / Arquitetura Front-end
+              - link [ref=e208] [cursor=pointer]:
+                - /url: /pt/work/hdi-design-system/
+                - heading "HDI Insurance Design System" [level=3] [ref=e209]
+              - paragraph [ref=e210]: Integrei o núcleo que definiu o Design System da HDI Seguros — mais de 15 componentes documentados em Storybook, transformando decisões de interface dispersas em um contrato compartilhado.
+              - generic [ref=e211]:
+                - generic [ref=e212]:
+                  - term [ref=e213]: Ano
+                  - definition [ref=e214]: 2020 — 2021
+                - generic [ref=e215]:
+                  - term [ref=e216]: Papel
+                  - definition [ref=e217]: Núcleo do Design System
+                - generic [ref=e218]:
+                  - term [ref=e219]: Stack
+                  - definition [ref=e220]: Angular 12, TypeScript, Storybook
+              - link "Ver case →" [ref=e221] [cursor=pointer]:
+                - /url: /pt/work/hdi-design-system/
+            - 'link "Ver case: HDI Insurance Design System" [ref=e222] [cursor=pointer]':
+              - /url: /pt/work/hdi-design-system/
+              - img "Integrei o núcleo que definiu o Design System da HDI Seguros — mais de 15 componentes documentados em Storybook, transformando decisões de interface dispersas em um contrato compartilhado." [ref=e224]
+        - article [ref=e225]:
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - generic [ref=e229]: "03"
+                - generic [ref=e230]: Produtos Próprios / SaaS / Automação com IA
+              - link [ref=e231] [cursor=pointer]:
+                - /url: /pt/work/welav-emide/
+                - heading "WeLav & Emidê" [level=3] [ref=e232]
+              - paragraph [ref=e233]: Dois negócios próprios, construídos e operados de ponta a ponta — e a camada de automação com IA que roda atendimento, SDR e vendas sem aumentar o time.
+              - generic [ref=e234]:
+                - generic [ref=e235]:
+                  - term [ref=e236]: Ano
+                  - definition [ref=e237]: 2025 — Atual
+                - generic [ref=e238]:
+                  - term [ref=e239]: Papel
+                  - definition [ref=e240]: Produto, Arquitetura & Desenvolvimento Full Stack
+                - generic [ref=e241]:
+                  - term [ref=e242]: Stack
+                  - definition [ref=e243]: Vue.js, Nuxt.js, Node.js
+              - link "Ver case →" [ref=e244] [cursor=pointer]:
+                - /url: /pt/work/welav-emide/
+            - 'link "Ver case: WeLav & Emidê" [ref=e245] [cursor=pointer]':
+              - /url: /pt/work/welav-emide/
+              - img "Dois negócios próprios, construídos e operados de ponta a ponta — e a camada de automação com IA que roda atendimento, SDR e vendas sem aumentar o time." [ref=e247]
+        - article [ref=e248]:
+          - generic [ref=e249]:
+            - generic [ref=e250]:
+              - generic [ref=e251]:
+                - generic [ref=e252]: "04"
+                - generic [ref=e253]: Saúde / Plataforma Corporativa / Refatoração
+              - link [ref=e254] [cursor=pointer]:
+                - /url: /pt/work/odontoprev-dentist-portal/
+                - heading "OdontoPrev Dentist Portal" [level=3] [ref=e255]
+              - paragraph [ref=e256]: Sustentação e refatoração do Portal do Dentista na OdontoPrev — plataforma que atende dezenas de milhares de beneficiários — modernizando uma base de código que precisava continuar rodando enquanto mudava.
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - term [ref=e259]: Ano
+                  - definition [ref=e260]: 2024 — 2025
+                - generic [ref=e261]:
+                  - term [ref=e262]: Papel
+                  - definition [ref=e263]: Desenvolvimento Full Stack
+                - generic [ref=e264]:
+                  - term [ref=e265]: Stack
+                  - definition [ref=e266]: Vue.js, Nuxt.js, Node.js
+              - link "Ver case →" [ref=e267] [cursor=pointer]:
+                - /url: /pt/work/odontoprev-dentist-portal/
+            - 'link "Ver case: OdontoPrev Dentist Portal" [ref=e268] [cursor=pointer]':
+              - /url: /pt/work/odontoprev-dentist-portal/
+              - img "Sustentação e refatoração do Portal do Dentista na OdontoPrev — plataforma que atende dezenas de milhares de beneficiários — modernizando uma base de código que precisava continuar rodando enquanto mudava." [ref=e270]
+        - article [ref=e271]:
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - generic [ref=e275]: "05"
+                - generic [ref=e276]: ERP / Produto / Liderança Técnica
+              - link [ref=e277] [cursor=pointer]:
+                - /url: /pt/work/epoc-erp-scheduling/
+                - heading "ERP Scheduling & Reservations" [level=3] [ref=e278]
+              - paragraph [ref=e279]: Módulo de Agendamentos e Reservas desenhado e entregue do zero para um ERP, hoje utilizado por aproximadamente 15 empresas clientes — construído enquanto liderava um time de três.
+              - generic [ref=e280]:
+                - generic [ref=e281]:
+                  - term [ref=e282]: Ano
+                  - definition [ref=e283]: 2022 — 2024
+                - generic [ref=e284]:
+                  - term [ref=e285]: Papel
+                  - definition [ref=e286]: Desenvolvedor Líder — Arquitetura & Entrega
+                - generic [ref=e287]:
+                  - term [ref=e288]: Stack
+                  - definition [ref=e289]: Vue.js, TypeScript, PHP
+              - link "Ver case →" [ref=e290] [cursor=pointer]:
+                - /url: /pt/work/epoc-erp-scheduling/
+            - 'link "Ver case: ERP Scheduling & Reservations" [ref=e291] [cursor=pointer]':
+              - /url: /pt/work/epoc-erp-scheduling/
+              - img "Módulo de Agendamentos e Reservas desenhado e entregue do zero para um ERP, hoje utilizado por aproximadamente 15 empresas clientes — construído enquanto liderava um time de três." [ref=e293]
+        - article [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - generic [ref=e297]:
+                - generic [ref=e298]: "06"
+                - generic [ref=e299]: Varejo Global / React / BFF & GraphQL
+              - link [ref=e300] [cursor=pointer]:
+                - /url: /pt/work/natura-global-sales/
+                - heading "Natura Global Sales Platform" [level=3] [ref=e301]
+              - paragraph [ref=e302]: Front-end da plataforma global de vendas da Natura, sobre React com BFF em Node.js e GraphQL — entregue durante alocação simultânea com a HDI Seguros.
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - term [ref=e305]: Ano
+                  - definition [ref=e306]: "2020"
+                - generic [ref=e307]:
+                  - term [ref=e308]: Papel
+                  - definition [ref=e309]: Desenvolvimento Front-end
+                - generic [ref=e310]:
+                  - term [ref=e311]: Stack
+                  - definition [ref=e312]: React, Node.js, BFF
+              - link "Ver case →" [ref=e313] [cursor=pointer]:
+                - /url: /pt/work/natura-global-sales/
+            - 'link "Ver case: Natura Global Sales Platform" [ref=e314] [cursor=pointer]':
+              - /url: /pt/work/natura-global-sales/
+              - img "Front-end da plataforma global de vendas da Natura, sobre React com BFF em Node.js e GraphQL — entregue durante alocação simultânea com a HDI Seguros." [ref=e316]
+    - generic [ref=e318]:
+      - generic [ref=e319]:
+        - generic [ref=e320]: — O que eu entrego
+        - heading [level=2] [ref=e321]:
+          - generic "CAPACIDADES," [ref=e322]
+          - generic "NÃO PERCENTUAIS." [ref=e325]
+        - paragraph [ref=e328]: Experiência não é tempo de carreira. É saber quais problemas não criar.
+      - generic [ref=e329]:
+        - generic [ref=e330]:
+          - heading "Front-end" [level=3] [ref=e331]
+          - list [ref=e332]:
+            - listitem [ref=e333]: React.js
+            - listitem [ref=e334]: Angular (AngularJS → 12+)
+            - listitem [ref=e335]: Vue.js
+            - listitem [ref=e336]: Nuxt.js
+            - listitem [ref=e337]: TypeScript
+            - listitem [ref=e338]: JavaScript (ES6+)
+            - listitem [ref=e339]: HTML5
+            - listitem [ref=e340]: CSS3
+            - listitem [ref=e341]: SCSS / Sass / Less
+            - listitem [ref=e342]: Tailwind
+            - listitem [ref=e343]: Bootstrap
+            - listitem [ref=e344]: Quasar
+            - listitem [ref=e345]: Material Design
+            - listitem [ref=e346]: Vite
+            - listitem [ref=e347]: Webpack
+        - generic [ref=e348]:
+          - heading "Back-end" [level=3] [ref=e349]
+          - list [ref=e350]:
+            - listitem [ref=e351]: Node.js
+            - listitem [ref=e352]: Nest.js
+            - listitem [ref=e353]: TypeORM
+            - listitem [ref=e354]: PHP
+            - listitem [ref=e355]: REST
+            - listitem [ref=e356]: GraphQL
+            - listitem [ref=e357]: BFF
+        - generic [ref=e358]:
+          - heading "Architecture" [level=3] [ref=e359]
+          - list [ref=e360]:
+            - listitem [ref=e361]: Design Systems
+            - listitem [ref=e362]: Micro-frontends
+            - listitem [ref=e363]: BFF
+            - listitem [ref=e364]: Clean Architecture
+            - listitem [ref=e365]: DDD
+            - listitem [ref=e366]: SOLID
+            - listitem [ref=e367]: Microservices
+            - listitem [ref=e368]: Messaging
+        - generic [ref=e369]:
+          - heading "AI & Automation" [level=3] [ref=e370]
+          - list [ref=e371]:
+            - listitem [ref=e372]: LLMs
+            - listitem [ref=e373]: RAG
+            - listitem [ref=e374]: n8n
+            - listitem [ref=e375]: Claude Code
+            - listitem [ref=e376]: Cursor
+            - listitem [ref=e377]: Codex
+        - generic [ref=e378]:
+          - heading "Quality" [level=3] [ref=e379]
+          - list [ref=e380]:
+            - listitem [ref=e381]: Jest
+            - listitem [ref=e382]: Jasmine
+            - listitem [ref=e383]: Cypress
+            - listitem [ref=e384]: React Testing Library
+            - listitem [ref=e385]: Selenium
+            - listitem [ref=e386]: TDD
+            - listitem [ref=e387]: Code review
+        - generic [ref=e388]:
+          - heading "DevOps & Cloud" [level=3] [ref=e389]
+          - list [ref=e390]:
+            - listitem [ref=e391]: Docker
+            - listitem [ref=e392]: Kubernetes
+            - listitem [ref=e393]: Jenkins
+            - listitem [ref=e394]: GitHub
+            - listitem [ref=e395]: GitLab
+            - listitem [ref=e396]: BitBucket
+            - listitem [ref=e397]: AWS
+            - listitem [ref=e398]: Google Cloud
+            - listitem [ref=e399]: Azure
+        - generic [ref=e400]:
+          - heading "Design" [level=3] [ref=e401]
+          - list [ref=e402]:
+            - listitem [ref=e403]: Figma
+            - listitem [ref=e404]: Adobe XD
+            - listitem [ref=e405]: Zeplin
+            - listitem [ref=e406]: Photoshop
+    - generic [ref=e408]:
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - generic [ref=e411]: — Desenvolvimento com IA
+          - heading [level=2] [ref=e412]:
+            - generic "EU NÃO SÓ USO IA." [ref=e413]
+            - generic "EU A ORQUESTRO." [ref=e416]
+        - paragraph [ref=e419]: A IA faz parte do meu processo de análise, prototipação, desenvolvimento, documentação, testes e automação. A tecnologia acelera a execução, mas arquitetura, contexto e decisões continuam exigindo experiência.
+      - list [ref=e421]:
+        - listitem [ref=e422]:
+          - generic [ref=e423]: "01"
+          - generic [ref=e424]: Pesquisa
+        - listitem [ref=e425]:
+          - generic [ref=e426]: "02"
+          - generic [ref=e427]: Arquitetura
+        - listitem [ref=e428]:
+          - generic [ref=e429]: "03"
+          - generic [ref=e430]: Protótipo
+        - listitem [ref=e431]:
+          - generic [ref=e432]: "04"
+          - generic [ref=e433]: Build
+        - listitem [ref=e434]:
+          - generic [ref=e435]: "05"
+          - generic [ref=e436]: Teste
+        - listitem [ref=e437]:
+          - generic [ref=e438]: "06"
+          - generic [ref=e439]: Otimização
+    - generic [ref=e441]:
+      - generic [ref=e442]:
+        - generic [ref=e443]: — Trajetória
+        - heading [level=2] [ref=e444]:
+          - generic "DEZESSEIS ANOS" [ref=e445]
+          - generic "CONSTRUINDO PARA A WEB." [ref=e448]
+      - generic [ref=e451]:
+        - generic [ref=e452]:
+          - button "Out 2025 — Atual WeLav & Emidê — Own Digital Products Consultor & Desenvolvedor Full Stack" [expanded] [ref=e453] [cursor=pointer]:
+            - generic [ref=e454]: Out 2025 — Atual
+            - generic [ref=e455]: WeLav & Emidê — Own Digital Products
+            - generic [ref=e456]: Consultor & Desenvolvedor Full Stack
+            - generic [ref=e457]: +
+          - generic [ref=e460]:
+            - generic [ref=e462]:
+              - paragraph [ref=e463]: Construo e opero as plataformas digitais de dois negócios próprios, do front-end à publicação.
+              - list [ref=e464]:
+                - listitem [ref=e465]:
+                  - generic [ref=e466]: —
+                  - text: "Responsável pelo ciclo completo do produto: arquitetura front-end, integração de APIs, deploy e evolução orientada a métrica de negócio."
+                - listitem [ref=e467]:
+                  - generic [ref=e468]: —
+                  - text: Projetei e implementei automações de atendimento, SDR e vendas com n8n integrado a LLMs, eliminando horas semanais de trabalho manual.
+                - listitem [ref=e469]:
+                  - generic [ref=e470]: —
+                  - text: Padronizei o processo comercial com automação, não com headcount.
+            - generic [ref=e471]:
+              - generic [ref=e472]: Stack
+              - list [ref=e473]:
+                - listitem [ref=e474]: Vue.js
+                - listitem [ref=e475]: Nuxt.js
+                - listitem [ref=e476]: Node.js
+                - listitem [ref=e477]: TypeScript
+                - listitem [ref=e478]: n8n
+                - listitem [ref=e479]: LLMs
+        - generic [ref=e480]:
+          - button "Ago 2024 — Out 2025 OdontoPrev (via Sis-it) Desenvolvedor Full Stack" [ref=e481] [cursor=pointer]:
+            - generic [ref=e482]: Ago 2024 — Out 2025
+            - generic [ref=e483]: OdontoPrev (via Sis-it)
+            - generic [ref=e484]: Desenvolvedor Full Stack
+            - generic [ref=e485]: +
+          - generic [ref=e486]:
+            - generic [ref=e488]:
+              - paragraph [ref=e489]: Squad de até 8 pessoas no desenvolvimento das plataformas digitais da OdontoPrev, que atende dezenas de milhares de beneficiários.
+              - list [ref=e490]:
+                - listitem [ref=e491]:
+                  - generic [ref=e492]: —
+                  - text: Conduzi a sustentação e a refatoração do Portal do Dentista, modernizando a base de código e reduzindo o retrabalho de manutenção.
+                - listitem [ref=e493]:
+                  - generic [ref=e494]: —
+                  - text: Construí e evoluí interfaces de produtos digitais corporativos.
+            - generic [ref=e495]:
+              - generic [ref=e496]: Stack
+              - list [ref=e497]:
+                - listitem [ref=e498]: Vue.js
+                - listitem [ref=e499]: Nuxt.js
+                - listitem [ref=e500]: Node.js
+                - listitem [ref=e501]: TypeScript
+                - listitem [ref=e502]: SCSS
+                - listitem [ref=e503]: Tailwind
+        - generic [ref=e504]:
+          - button "Nov 2022 — Mar 2024 Epoc Tech Desenvolvedor Líder" [ref=e505] [cursor=pointer]:
+            - generic [ref=e506]: Nov 2022 — Mar 2024
+            - generic [ref=e507]: Epoc Tech
+            - generic [ref=e508]: Desenvolvedor Líder
+            - generic [ref=e509]: +
+          - generic [ref=e510]:
+            - generic [ref=e512]:
+              - paragraph [ref=e513]: Liderança técnica de equipe de 3 desenvolvedores, responsável por arquitetura, padrões e entrega.
+              - list [ref=e514]:
+                - listitem [ref=e515]:
+                  - generic [ref=e516]: —
+                  - text: Desenhei e entreguei do zero o módulo de Agendamentos e Reservas do ERP, utilizado por aproximadamente 15 empresas clientes.
+                - listitem [ref=e517]:
+                  - generic [ref=e518]: —
+                  - text: Responsável por code review, definição de arquitetura, padrões de código, planejamento de sprint e entrevistas técnicas.
+                - listitem [ref=e519]:
+                  - generic [ref=e520]: —
+                  - text: Atuei como interlocutor técnico direto com stakeholders e clientes na definição de escopo e priorização.
+            - generic [ref=e521]:
+              - generic [ref=e522]: Stack
+              - list [ref=e523]:
+                - listitem [ref=e524]: PHP
+                - listitem [ref=e525]: Vue.js
+                - listitem [ref=e526]: TypeScript
+                - listitem [ref=e527]: JavaScript
+                - listitem [ref=e528]: Bootstrap
+        - generic [ref=e529]:
+          - button "Jul 2021 — Nov 2022 DOMVS IT Desenvolvedor Full Stack" [ref=e530] [cursor=pointer]:
+            - generic [ref=e531]: Jul 2021 — Nov 2022
+            - generic [ref=e532]: DOMVS IT
+            - generic [ref=e533]: Desenvolvedor Full Stack
+            - generic [ref=e534]: +
+          - generic [ref=e535]:
+            - generic [ref=e537]:
+              - paragraph [ref=e538]: Aplicações corporativas em duas frentes de produto paralelas.
+              - list [ref=e539]:
+                - listitem [ref=e540]:
+                  - generic [ref=e541]: —
+                  - text: Desenvolvi aplicações corporativas em duas frentes paralelas — uma em Angular 10+, outra em Vue.js.
+                - listitem [ref=e542]:
+                  - generic [ref=e543]: —
+                  - text: Integrei interfaces front-end a serviços e APIs através de Node.js e GraphQL.
+            - generic [ref=e544]:
+              - generic [ref=e545]: Stack
+              - list [ref=e546]:
+                - listitem [ref=e547]: Angular 10+
+                - listitem [ref=e548]: Vue.js
+                - listitem [ref=e549]: Node.js
+                - listitem [ref=e550]: GraphQL
+                - listitem [ref=e551]: TypeScript
+        - generic [ref=e552]:
+          - button "Ago 2018 — Jul 2021 Sysmap Solutions Desenvolvedor Full Stack / Front-end — consultor em quatro clientes corporativos" [ref=e553] [cursor=pointer]:
+            - generic [ref=e554]: Ago 2018 — Jul 2021
+            - generic [ref=e555]: Sysmap Solutions
+            - generic [ref=e556]: Desenvolvedor Full Stack / Front-end — consultor em quatro clientes corporativos
+            - generic [ref=e557]: +
+          - generic [ref=e558]:
+            - generic [ref=e560]:
+              - paragraph [ref=e561]: Alocado como consultor na HDI Seguros, Natura, Sompo Seguros e Banco Safra — seguros, varejo global e bancário.
+              - list [ref=e562]:
+                - listitem [ref=e563]:
+                  - generic [ref=e564]: —
+                  - text: "HDI Seguros (Abr/2020 – Jul/2021): integrei o núcleo que definiu o Design System da plataforma de seguros, entregando mais de 15 componentes documentados em Storybook. Angular 12, BFF, Node.js, Jenkins."
+                - listitem [ref=e565]:
+                  - generic [ref=e566]: —
+                  - text: "Natura (Mar – Jul/2020, alocação simultânea): front-end da plataforma global de vendas com React, Node.js, BFF e GraphQL."
+                - listitem [ref=e567]:
+                  - generic [ref=e568]: —
+                  - text: "Sompo Seguros (Nov/2019 – Mar/2020): entreguei o sistema de Sinistro Transporte com Angular 8/10 e pipeline Jenkins."
+                - listitem [ref=e569]:
+                  - generic [ref=e570]: —
+                  - text: "Banco Safra (Ago/2018 – Nov/2019): produtos web e mobile do SafraPay e do Internet Banking, com mais de 1 milhão de usuários. Conduzi a migração de módulos de AngularJS para Angular 6/7/8 e reduzi o tempo de carregamento e o tamanho do bundle."
+            - generic [ref=e571]:
+              - generic [ref=e572]: Stack
+              - list [ref=e573]:
+                - listitem [ref=e574]: Angular
+                - listitem [ref=e575]: React
+                - listitem [ref=e576]: Node.js
+                - listitem [ref=e577]: BFF
+                - listitem [ref=e578]: GraphQL
+                - listitem [ref=e579]: TypeScript
+                - listitem [ref=e580]: Jenkins
+                - listitem [ref=e581]: Storybook
+        - generic [ref=e582]:
+          - button "Abr 2018 — Ago 2018 123 Carros Desenvolvedor Front-end" [ref=e583] [cursor=pointer]:
+            - generic [ref=e584]: Abr 2018 — Ago 2018
+            - generic [ref=e585]: 123 Carros
+            - generic [ref=e586]: Desenvolvedor Front-end
+            - generic [ref=e587]: +
+          - generic [ref=e588]:
+            - generic [ref=e590]:
+              - paragraph [ref=e591]: Plataforma e dashboard do produto para um marketplace automotivo.
+              - list [ref=e592]:
+                - listitem [ref=e593]:
+                  - generic [ref=e594]: —
+                  - text: Desenvolvi a plataforma e o dashboard do produto sobre um modelo de componentes compartilhado.
+            - generic [ref=e595]:
+              - generic [ref=e596]: Stack
+              - list [ref=e597]:
+                - listitem [ref=e598]: Vue.js
+                - listitem [ref=e599]: JavaScript ES6
+                - listitem [ref=e600]: Bootstrap
+                - listitem [ref=e601]: Materialize
+        - generic [ref=e602]:
+          - button "Nov 2012 — Abr 2018 Agência Questa Comunicação Desenvolvedor Full Stack" [ref=e603] [cursor=pointer]:
+            - generic [ref=e604]: Nov 2012 — Abr 2018
+            - generic [ref=e605]: Agência Questa Comunicação
+            - generic [ref=e606]: Desenvolvedor Full Stack
+            - generic [ref=e607]: +
+          - generic [ref=e608]:
+            - generic [ref=e610]:
+              - paragraph [ref=e611]: Cinco anos e meio entregando sistemas, sites e aplicativos para uma carteira diversa de clientes.
+              - list [ref=e612]:
+                - listitem [ref=e613]:
+                  - generic [ref=e614]: —
+                  - text: Entreguei sistemas, sites e aplicativos em múltiplos contextos de cliente, adaptando-me a escopos e prazos diferentes.
+                - listitem [ref=e615]:
+                  - generic [ref=e616]: —
+                  - text: Acompanhei de perto a transição do front-end, do AngularJS para Angular 2 e Vue.js.
+            - generic [ref=e617]:
+              - generic [ref=e618]: Stack
+              - list [ref=e619]:
+                - listitem [ref=e620]: AngularJS
+                - listitem [ref=e621]: Angular 2
+                - listitem [ref=e622]: Vue.js
+                - listitem [ref=e623]: Node.js
+                - listitem [ref=e624]: Ionic
+                - listitem [ref=e625]: PHP
+                - listitem [ref=e626]: WordPress
+        - generic [ref=e627]:
+          - button "Jun 2010 — Nov 2012 Jurujuba Publicidade Desenvolvedor Full Stack" [ref=e628] [cursor=pointer]:
+            - generic [ref=e629]: Jun 2010 — Nov 2012
+            - generic [ref=e630]: Jurujuba Publicidade
+            - generic [ref=e631]: Desenvolvedor Full Stack
+            - generic [ref=e632]: +
+          - generic [ref=e633]:
+            - generic [ref=e635]:
+              - paragraph [ref=e636]: "Onde tudo começou: sites institucionais, blogs e portais."
+              - list [ref=e637]:
+                - listitem [ref=e638]:
+                  - generic [ref=e639]: —
+                  - text: Desenvolvi sites, blogs e portais institucionais do zero.
+                - listitem [ref=e640]:
+                  - generic [ref=e641]: —
+                  - text: Fundamentos em HTML semântico, CSS e JavaScript.
+            - generic [ref=e642]:
+              - generic [ref=e643]: Stack
+              - list [ref=e644]:
+                - listitem [ref=e645]: HTML
+                - listitem [ref=e646]: CSS
+                - listitem [ref=e647]: JavaScript
+                - listitem [ref=e648]: jQuery
+                - listitem [ref=e649]: PHP
+                - listitem [ref=e650]: WordPress
+    - generic [ref=e652]:
+      - generic [ref=e653]:
+        - heading [level=2] [ref=e654]:
+          - generic "LAB /" [ref=e655]
+          - generic "EXPERIMENTOS" [ref=e658]
+        - paragraph [ref=e661]: Interfaces, movimento, WebGL, componentes e ferramentas com IA. Uma bancada digital de coisas que construo para continuar aprendendo.
+      - generic [ref=e662]:
+        - generic [ref=e663]:
+          - generic [ref=e664]:
+            - generic [ref=e665]: 3D · Motion
+            - generic [ref=e666]: "2025"
+          - heading "Particle Monogram" [level=3] [ref=e667]
+          - paragraph [ref=e668]: "[PLACEHOLDER] Um monograma WebGL que reage ao cursor — a semente do hero deste site."
+        - generic [ref=e669]:
+          - generic [ref=e670]:
+            - generic [ref=e671]: Motion · Code
+            - generic [ref=e672]: "2025"
+          - heading "Scroll Choreography" [level=3] [ref=e673]
+          - paragraph [ref=e674]: "[PLACEHOLDER] Um estudo de seções fixadas e sincronizadas com GSAP ScrollTrigger."
+        - generic [ref=e675]:
+          - generic [ref=e676]:
+            - generic [ref=e677]: AI · Code
+            - generic [ref=e678]: "2025"
+          - heading "Agent Playground" [level=3] [ref=e679]
+          - paragraph [ref=e680]: "[PLACEHOLDER] Um pequeno harness para orquestrar agentes LLM sobre ferramentas locais."
+      - link "Entrar no lab →" [ref=e682] [cursor=pointer]:
+        - /url: /pt/lab/
+    - generic [ref=e684]:
+      - generic [ref=e685]: — Contato
+      - heading [level=2] [ref=e686]:
+        - generic "VAMOS CRIAR" [ref=e687]
+        - generic "ALGO" [ref=e690]
+        - generic "QUE IMPORTE." [ref=e693]
+      - generic [ref=e696]:
+        - generic [ref=e697]:
+          - paragraph [ref=e698]: Disponível para oportunidades, produtos digitais, projetos especiais e colaborações em tecnologia.
+          - generic [ref=e699]:
+            - link "feliperom87@gmail.com" [ref=e700] [cursor=pointer]:
+              - /url: mailto:feliperom87@gmail.com
+            - button "Copiar e-mail" [ref=e701] [cursor=pointer]
+          - generic [ref=e702]:
+            - text: Aberto a projetos e oportunidades · Santos, Brasil — Remoto ·
+            - generic [ref=e704]: "--:--:-- GMT-3"
+        - list [ref=e705]:
+          - listitem [ref=e706]:
+            - link "E-mail feliperom87@gmail.com ↗" [ref=e707] [cursor=pointer]:
+              - /url: mailto:feliperom87@gmail.com
+              - generic [ref=e708]: E-mail
+              - generic [ref=e709]: feliperom87@gmail.com ↗
+          - listitem [ref=e710]:
+            - link "LinkedIn in/feliperom ↗" [ref=e711] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/felipe-romero
+              - generic [ref=e712]: LinkedIn
+              - generic [ref=e713]: in/feliperom ↗
+          - listitem [ref=e714]:
+            - link "GitHub feliperom ↗" [ref=e715] [cursor=pointer]:
+              - /url: https://github.com/feliperom
+              - generic [ref=e716]: GitHub
+              - generic [ref=e717]: feliperom ↗
+          - listitem [ref=e718]:
+            - link "WhatsApp +55 13 99144-6371 ↗" [ref=e719] [cursor=pointer]:
+              - /url: https://wa.me/5513991446371
+              - generic [ref=e720]: WhatsApp
+              - generic [ref=e721]: +55 13 99144-6371 ↗
+  - contentinfo [ref=e722]:
+    - generic [ref=e723]:
+      - generic [ref=e724]:
+        - link "FR." [ref=e725] [cursor=pointer]:
+          - /url: /pt/
+        - generic [ref=e726]:
+          - link "LinkedIn" [ref=e727] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/felipe-romero
+          - link "GitHub" [ref=e728] [cursor=pointer]:
+            - /url: https://github.com/feliperom
+          - link "feliperom87@gmail.com" [ref=e729] [cursor=pointer]:
+            - /url: mailto:feliperom87@gmail.com
+          - link "Contato" [ref=e730] [cursor=pointer]:
+            - /url: /pt/contact/
+      - generic [ref=e731]:
+        - generic [ref=e732]: © 2026 Projetado e desenvolvido por Felipe Romero.
+        - generic [ref=e733]: Santos, Brasil · -23.9608, -46.3336
+        - generic [ref=e734]: Construído com Next.js, TypeScript, GSAP e curiosidade.
