@@ -7,7 +7,7 @@ export const pt: Dictionary = {
       "Desenvolvedor Full Stack sênior criando produtos escaláveis, interfaces interativas e soluções com IA. 16 anos construindo para a web em bancário, seguros e saúde.",
   },
   nav: {
-    index: "Índice",
+    index: "Início",
     work: "Projetos",
     about: "Sobre",
     experience: "Experiência",
@@ -59,7 +59,7 @@ export const pt: Dictionary = {
     kicker: "O que eu entrego",
     line1: "CAPACIDADES,",
     line2: "NÃO PERCENTUAIS.",
-    body: "Experiência não é tempo de carreira. É saber quais problemas não criar.",
+    body: "Experiência não é tempo de carreira. É saber quais problemas não criar e quais resolver de fato.",
   },
   ai: {
     kicker: "Desenvolvimento com IA",

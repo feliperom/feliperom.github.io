@@ -7,10 +7,10 @@
         - /url: /pt/
       - list [ref=f3e77]:
         - listitem [ref=f3e78]:
-          - link "01 Índice" [ref=f3e79] [cursor=pointer]:
+          - link "01 Início" [ref=f3e79] [cursor=pointer]:
             - /url: /pt/
             - generic [ref=f3e80]: "01"
-            - generic [ref=f3e81]: Índice
+            - generic [ref=f3e81]: Início
         - listitem [ref=f3e82]:
           - link "02 Projetos" [ref=f3e83] [cursor=pointer]:
             - /url: /pt/#work
@@ -258,7 +258,7 @@
         - heading [level=2] [ref=f3e321]:
           - generic "CAPACIDADES," [ref=f3e322]
           - generic "NÃO PERCENTUAIS." [ref=f3e325]
-        - paragraph [ref=f3e328]: Experiência não é tempo de carreira. É saber quais problemas não criar.
+        - paragraph [ref=f3e328]: Experiência não é tempo de carreira. É saber quais problemas não criar e quais resolver de fato.
       - generic [ref=f3e329]:
         - generic [ref=f3e330]:
           - heading "Front-end" [level=3] [ref=f3e331]
