@@ -20,7 +20,7 @@ export function Preloader() {
     }
 
     const finish = () => {
-      window.sessionStorage.setItem("preloaded", "1");
+      window.sessionStorage.setItem("preloaded", "0");
       setDone(true);
       document.body.style.overflow = "";
     };
